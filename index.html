@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Clothing Store</title>
+
+</head>
+
+<body>
+    <div class="navbar">
+        <h2>Clothing Store</h2>
+    </div>
+    <div class="banner">
+        <div class="select">SELECT YOUR CHOICE </div>
+        <div class="category">
+            <p id="menBtn" class="filter activeCategory" onclick="showData('men')"><img src="./fluent-emoji-high-contrast_boy.png">Men</p>
+            <p id="womenBtn" class="filter"  onclick="showData('women')"><img src="./Vector.png" >Women</p>
+            <p id="kidsBtn" class="filter"  onclick="showData('kids')"><img src="./Vector (1).png">Kids</p>
+        </div>
+    </div>
+    <div class="shop1" id="shop">
+        <div class="shop" id="menData">
+
+        </div>
+        <div  id="womenData" class="hidden shop">
+
+        </div>
+        <div id="kidsData" class="hidden shop">
+
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
